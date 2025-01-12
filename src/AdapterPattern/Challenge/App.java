@@ -11,5 +11,10 @@ public class App {
         var frenchGreeting = new Greeting(frenchLocalizedAdapter);
         frenchGreeting.print();
 
+        //class Adapter
+        var frenchLocalizedAdapter2 = new FrenchLocalizedAdapterClass();
+        var frenchGreeting2 = new Greeting(frenchLocalizedAdapter2);
+        frenchGreeting2.print();
+
     }
 }
