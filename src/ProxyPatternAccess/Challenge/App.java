@@ -16,7 +16,8 @@ public class App {
 
     private static void goToFavoriteMovies() {
         System.out.println("Loading favorite movies...");
-        mediaPlayerProxy.playMedia();
+        var movieMediaPlayer = new MovieMediaPlayer();
+        movieMediaPlayer.playMedia();
     }
 
 }
